@@ -1,6 +1,6 @@
 {
   "name": "jest-serializer-ansi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jest serializer to strip ANSI escape codes",
   "main": "index.js",
   "repository": "git@github.com:joaogranado/jest-serializer-ansi.git",
