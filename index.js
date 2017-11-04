@@ -11,6 +11,6 @@ const stripAnsi = require('strip-ansi');
  */
 
 module.exports = {
-  print: value => `"${stripAnsi(value)}"`,
+  print: value => JSON.stringify(stripAnsi(value)),
   test: value => value && isString(value) && hasAnsi(value)
 };
